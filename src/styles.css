@@ -1,4 +1,18 @@
 .App {
   font-family: sans-serif;
-  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  background-color: #ce2ce3;
+  border-radius: 15px;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
 }

@@ -1,10 +1,13 @@
 import React from "react";
 import "./styles.css";
+import Navbar from "./Navbar";
 
-export default function App() {
+const App = () => {
   return (
     <div className="App">
-      <h1> hello </h1>
+      <Navbar />
     </div>
   );
-}
+};
+
+export default App;
