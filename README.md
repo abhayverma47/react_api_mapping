@@ -1,2 +1,4 @@
-# tese_react
+# React-api-mapping
 Created with CodeSandbox
+
+mapping api data using state
