@@ -1,18 +1,52 @@
-.App {
+body {
   font-family: sans-serif;
+  width: 98%;
+  height: 98%;
+  background: rgb(255, 154, 158);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 154, 158, 1) 0%,
+    rgba(254, 207, 239, 1) 100%
+  );
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
-  width: 90%;
+  width: 95vw;
   margin: auto;
-  background-color: #ce2ce3;
+  background-color: #ce2ce355;
   border-radius: 15px;
+  padding: 0 10px;
 }
 
 .navbar ul {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   list-style: none;
+}
+
+li {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+h4 {
+  cursor: pointer;
+}
+
+.card {
+  width: 70vw;
+  display: flex;
+  justify-content: center;
+  border-radius: 15px;
+  color: #fff;
+  padding: 20px;
+  margin: 20px auto;
+  background-color: #47454767;
+}
+
+.card h2 {
+  text-transform: capitalize;
 }
